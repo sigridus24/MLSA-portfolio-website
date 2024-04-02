@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://sigridus24.github.io/MLSA-portfolio-wesbite",
+  "homepage": "https://sigridus24.github.io/MLSA-portfolio-website",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://sigridus24.github.io/MLSA-portfolio-wesbite'",
+    "build-gh": "parcel build --public-url 'https://sigridus24.github.io/MLSA-portfolio-website'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
