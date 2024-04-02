@@ -16,27 +16,26 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/black_abstract_background.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "black abstract background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Computer Science, Software Developing student at the Namibia University of Science & Technology. I take joy in programming and problem solving.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
+  "Web design & development",
+  "Software Development",
+  "Full-stack Development",
+  "Cloud Technologies",
   "Mobile user interfaces",
-  "Graphic design",
 ];
 
 /**
@@ -45,7 +44,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about solving problems in new creative ways to drive innovation. I've always been drawn to curiousity and how innovation is birthed from it. One of my favourite quotes is from an unknown developer which goes; ''We are just children condemned by the thing that captivates us most, which is being curious.''";
 
 const About = () => {
   return (
